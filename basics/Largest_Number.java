@@ -15,10 +15,10 @@ public class Largest_Number {
       largest = b;
     if (largest < c)
       largest = c;
+        /* we can also use math.max function as well
+    largest = Math.max(c, Math.max(a,b));
+    */ 
     System.out.println("Largest value = " + largest);
-
-    // we can also use math.max function as well
-
     sc.close();
   }
 }
